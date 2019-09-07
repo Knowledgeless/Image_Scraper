@@ -56,4 +56,4 @@ if u == 2:
 		print('Done!')
 
 else:
-	print("Incorrect input")
+	print("Incorrect Input!!!")
