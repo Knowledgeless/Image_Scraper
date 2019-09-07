@@ -44,6 +44,8 @@ if u == 2:
 
 	for img in imgs:
 		link =  img.get('src')
+		if 'http://' not in link:
+		 	link = r + link
 		links.append(link)
 
 	print("Images Detected: " + str(len(links)))
@@ -54,4 +56,4 @@ if u == 2:
 		print('Done!')
 
 else:
-	print("Incorrect Input!!!")
+	print("Incorrect input")
