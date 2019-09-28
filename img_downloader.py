@@ -35,7 +35,7 @@ u = int(input("Your Input: "))
 if u == 1:
 	print('''
 		\t -------------
-		\t| Information |
+		    Information 
 		\t -------------
 	[+] To use this script you have to press (1). 
 	[+] After that you have to enter the correct url of your website to 
