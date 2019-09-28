@@ -44,7 +44,7 @@ if u == 1:
 
 		''')
 
-if u == 2:
+elif u == 2:
 
 	r = input("Your url: ")
 	response = requests.get(r).text
