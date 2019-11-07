@@ -29,10 +29,10 @@ print("""
 
 	""")
 
-u = int(input("Your Input: "))
+u = input("Your Input: ")
 
 
-if u == 1 or u.lower()= "help" or u.lower()="h" or u = "-h":
+if u == "1" or u.lower()= "help" or u.lower()="h" or u = "-h":
 	print('''
 		\t -------------
 		    Information 
@@ -44,7 +44,7 @@ if u == 1 or u.lower()= "help" or u.lower()="h" or u = "-h":
 
 		''')
 
-elif u == 2:
+elif u == "2":
 
 	r = input("Your url: ")
 	response = requests.get(r).text
