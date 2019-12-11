@@ -32,7 +32,7 @@ print("""
 u = input("Your Input: ")
 
 
-if u == "1" or u.lower()= "help" or u.lower()="h" or u = "-h":
+if u == "1" or u.lower()== "help" or u.lower()=="h" or u == "-h":
 	print('''
 		\t -------------
 		    Information 
